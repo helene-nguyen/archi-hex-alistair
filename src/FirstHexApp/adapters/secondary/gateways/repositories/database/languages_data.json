@@ -1,0 +1,14 @@
+[
+  {
+    "language": "english",
+    "greetings": "Good morning !"
+  },
+  {
+    "language": "français",
+    "greetings": "Bonjour !"
+  },
+  {
+    "language": "vietnamien",
+    "greetings": "Sinh chào !"
+  }
+]
