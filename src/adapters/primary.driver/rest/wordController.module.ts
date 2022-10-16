@@ -1,13 +1,13 @@
 import { Module } from '@nestjs/common';
 import { WordController } from './wordController';
-import { MiniHexa } from 'src/smallHexagon/use-cases/translate/translate';
+import { MiniHexaThatSendingSomeWords } from 'src/smallHexagon/use-cases/sendSomeWords/sendWord';
 
 
 @Module({
     imports: [],
     controllers: [WordController],
     providers: [
-        MiniHexa
+        MiniHexaThatSendingSomeWords
     ]
 })
 

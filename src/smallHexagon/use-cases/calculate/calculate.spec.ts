@@ -2,6 +2,7 @@ import { SimpleTest } from './calculate';
 
 describe('SimpleTest', () => {
     let simpleTest = new SimpleTest();
+    //a test not that I expect but well, go for another one !
 
     const a = 2;
     const b = 9;

@@ -6,7 +6,7 @@ import Words from './fakeData';
 export default class WordService implements WordRepository {
     word: string = Words.victory;
 
-    getWord() : string {
-        return this.word;
+    getWord() {
+         return this.word;
     }
 }

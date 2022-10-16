@@ -2,7 +2,7 @@
 //   parser: '@typescript-eslint/parser',
 //   parserOptions: {
 //     project: 'tsconfig.json',
-//     tsconfigRootDir : __dirname, 
+//     tsconfigRootDir : __dirname,
 //     sourceType: 'module',
 //   },
 //   plugins: ['@typescript-eslint/eslint-plugin'],
@@ -24,25 +24,4 @@
 //   },
 // };
 
-export default {
-  "env": {
-      "es2021": true,
-      "node": true
-  },
-  "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended"
-  ],
-  "overrides": [
-  ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-  },
-  "plugins": [
-      "@typescript-eslint"
-  ],
-  "rules": {
-  }
-}
+codium .codium .
